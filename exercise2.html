@@ -8,16 +8,55 @@
     <style>
         body {
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: linen;
+        }
+        
+        .bold {
+            background-color: wheat;
+            color:slategray
+        }
+
+        .box { 
+            padding: 10px; 
+            border-style: solid; 
+            border-width: 4px; 
+            border-color: rgb(247, 247, 247); 
+            width:30%; 
+            margin: 20px 0px 2px 0px; 
+        }
+
+        .box-1 { 
+            background-color: rgb(144, 168, 144); 
+            color: white; 
+        }
+
+        .box-2 { 
+            background-color: rgb(187, 187, 223); 
+            color: white; 
+        }
+
+        .box-3 { 
+            background-color: rgb(228, 216, 196); 
+            color: white; 
         }
     </style>
 </head>
 <body>
+    <div class="box box-1">
+        Box 1
+    </div>
+    <div class="box box-2">
+        Box 2
+    </div>
+    <div class="box box-3">
+        Box3
+    </div>
     <h1 style="color:#E3B7AE">Blackboard Instructor Guide (Original Course View)</h1>
     <sup>Created on 2021.10.23</sup><br>
-    <img width="10%" height="10%" src="https://portal.cuhk.edu.hk/cs/EPPRD/cache/CUHK_BLACKBOARD_ICON_1.svg">
+    <img style="padding:20px" width="10%" height="10%" src="https://portal.cuhk.edu.hk/cs/EPPRD/cache/CUHK_BLACKBOARD_ICON_1.svg">
     <br>
     <a href="https://blackboard.cuhk.edu.hk/ultra/stream" target="_blank">Go to blackboard</a>.<br>
-    <b style="background-color: #E3B7AE;">Do not share your password.</b><br>
+    <b style="background-color: #E3B7AE; ">Do not share your password.</b><br>
     <ul>
         <li>Online Meetings</li>
         <li>Video and Video Assignment (Panopto Cloud)</li>
@@ -27,7 +66,7 @@
         <li>Test & Exam</li>
     </ul>
     <u>Example of information:</u><br>
-    <table cellspacing="2px" cellpadding="6px" border="1">
+    <table class="bold" cellspacing="2px" cellpadding="6px" style="border:3px solid olivedrab">
         <tr>
             <th>First Name</th><th>Last Name</th><th>Major</th><th>Student ID</th>
         </tr>
